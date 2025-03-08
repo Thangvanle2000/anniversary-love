@@ -59,6 +59,33 @@ const list1 = [
     price: "Xing đẹp tuỵt zời",
   },
 ];
+const list11 = [
+  {
+    title: "Orange",
+    img: "/img-same.jpg",
+    price: "Cute",
+  },
+  {
+    title: "Tangerine",
+    img: "/img-same-1.PNG",
+    price: "Cuteee",
+  },
+  {
+    title: "bd1",
+    img: "/img-same-2.JPG",
+    price: "Quá",
+  },
+  {
+    title: "bd2",
+    img: "/img-same-3.jpg",
+    price: "Trời",
+  },
+  {
+    title: "Raspberry",
+    img: "/img-same-4.jpg",
+    price: "Rồi",
+  },
+];
 const list2 = [
   {
     title: "Orange",
@@ -110,6 +137,33 @@ const list3 = [
   {
     title: "food-3",
     img: "/img-food-3.png",
+    price: "Ngon tuỵt zời",
+  },
+];
+const list4 = [
+  {
+    title: "Orange",
+    img: "/drink.jpg",
+    price: "Cute",
+  },
+  {
+    title: "Tangerine",
+    img: "/drink-1.PNG",
+    price: "Ngon",
+  },
+  {
+    title: "food-5",
+    img: "/drink-2.PNG",
+    price: "Ngon hơn",
+  },
+  {
+    title: "food-1",
+    img: "/drink-3.PNG",
+    price: "Ngon tuỵt",
+  },
+  {
+    title: "food-3",
+    img: "/drink-4.PNG",
     price: "Ngon tuỵt zời",
   },
 ];
@@ -286,6 +340,37 @@ const RarePage: React.FC = () => {
       </div>
       <div className="text-center mt-5">
         <p className="text-4xl font-medium text-transparent bg-clip-text m-auto w-full mt-4">
+          Đi biển
+        </p>
+        <b className="font-medium text-base bg-clip-text text-transparent mt-4">
+          (Chuyến đi biển đáng nhớ ghêeee :3)
+        </b>
+      </div>
+      <div className="flex items-center justify-center gap-x-5 mt-8 m-auto">
+        {list11.map((item, index: number) => (
+          <Card
+            key={index}
+            isPressable
+            shadow="sm"
+            onPress={() => console.log("item pressed")}
+          >
+            <CardBody className="overflow-visible p-0">
+              <Image
+                isZoomed
+                alt="HeroUI Fruit Image with Zoom"
+                src={item?.img}
+                width={120}
+                className="object-fill"
+              />
+            </CardBody>
+            <CardFooter className="text-small justify-center">
+              <p className="text-default-500">{item.price}</p>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+      <div className="text-center mt-5">
+        <p className="text-4xl font-medium text-transparent bg-clip-text m-auto w-full mt-4">
           Sinh nhậtttt
         </p>
         <b className="font-medium text-base bg-clip-text text-transparent mt-4">
@@ -325,6 +410,34 @@ const RarePage: React.FC = () => {
       </div>
       <div className="flex items-center justify-center gap-x-5 mt-8 m-auto">
         {list3.map((item, index: number) => (
+          <Card
+            key={index}
+            isPressable
+            shadow="sm"
+            onPress={() => console.log("item pressed")}
+          >
+            <CardBody className="overflow-visible p-0">
+              <Image
+                isZoomed
+                alt="HeroUI Fruit Image with Zoom"
+                src={item?.img}
+                width={120}
+                className="object-fill"
+              />
+            </CardBody>
+            <CardFooter className="text-small justify-center">
+              <p className="text-default-500">{item.price}</p>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+      <div className="text-center mt-5">
+        <p className="text-4xl font-medium text-transparent bg-clip-text m-auto w-full mt-4">
+          Uống cả thế giới
+        </p>
+      </div>
+      <div className="flex items-center justify-center gap-x-5 mt-8 m-auto">
+        {list4.map((item, index: number) => (
           <Card
             key={index}
             isPressable
