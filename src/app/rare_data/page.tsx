@@ -17,7 +17,7 @@ const list = [
     price: "Xing",
   },
   {
-    title: "Tangerine",
+    title: "sen-1",
     img: "/img-sen-1.jpg",
     price: "Xing hơn",
   },
@@ -44,13 +44,13 @@ const list1 = [
     price: "Xing",
   },
   {
-    title: "Tangerine",
+    title: "Tepsi",
     img: "/moment-3.jpg",
     price: "Xing hơn",
   },
   {
-    title: "Tangerine",
-    img: "/moment-1.jpg",
+    title: "teppp",
+    img: "/moment-1.JPG",
     price: "Xing hơn nữa",
   },
   {
@@ -71,13 +71,13 @@ const list2 = [
     price: "Bánh",
   },
   {
-    title: "Tangerine",
+    title: "bd1",
     img: "/birthday-1.jpg",
     price: "Xing",
   },
   {
-    title: "Tangerine",
-    img: "/birthday-2.png",
+    title: "bd2",
+    img: "/birthday-2.PNG",
     price: "Xing hơn",
   },
   {
@@ -89,27 +89,27 @@ const list2 = [
 const list3 = [
   {
     title: "Orange",
-    img: "/food.jpg",
+    img: "/img-food.jpg",
     price: "Cute",
   },
   {
     title: "Tangerine",
-    img: "/food-4.png",
+    img: "/img-food-4.png",
     price: "Ngon",
   },
   {
-    title: "Tangerine",
-    img: "/food-5.png",
+    title: "food-5",
+    img: "/img-food-5.png",
     price: "Ngon hơn",
   },
   {
-    title: "Tangerine",
-    img: "/food-1.png",
+    title: "food-1",
+    img: "/img-food-1.png",
     price: "Ngon tuỵt",
   },
   {
-    title: "Raspberry",
-    img: "/food-3.png",
+    title: "food-3",
+    img: "/img-food-3.png",
     price: "Ngon tuỵt zời",
   },
 ];
@@ -191,7 +191,8 @@ const RarePage: React.FC = () => {
               title="Sự thay đổi của bản thân"
             >
               Khoảng thời gian vừa rồi anh cũng nhận ra những cái sai của mình
-              và thay đổi, sống tử tế hơn :3
+              và thay đổi, sống tích cực hơn,tử tế hơn và mong em cho cơ hội sửa
+              sai :3
             </AccordionItem>
             <AccordionItem
               key="emotion"
