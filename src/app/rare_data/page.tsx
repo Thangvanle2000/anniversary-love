@@ -45,7 +45,7 @@ const list1 = [
   },
   {
     title: "Tepsi",
-    img: "/moment-3.jpg",
+    img: "/img-moment-3.PNG",
     price: "Xing hơn",
   },
   {
@@ -89,7 +89,7 @@ const list11 = [
 const list2 = [
   {
     title: "Orange",
-    img: "/birthday.jpg",
+    img: "/img-birthday.png",
     price: "Cute",
   },
   {
