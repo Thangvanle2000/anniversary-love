@@ -40,22 +40,22 @@ const list1 = [
   },
   {
     title: "Tangerine",
-    img: "/moment-4.JPG",
+    img: "/moment-4.jpg",
     price: "Xing",
   },
   {
     title: "Tangerine",
-    img: "/moment-3.JPG",
+    img: "/moment-3.jpg",
     price: "Xing hơn",
   },
   {
     title: "Tangerine",
-    img: "/moment-1.JPG",
+    img: "/moment-1.jpg",
     price: "Xing hơn nữa",
   },
   {
     title: "Raspberry",
-    img: "/moment-2.JPG",
+    img: "/moment-2.jpg",
     price: "Xing đẹp tuỵt zời",
   },
 ];
